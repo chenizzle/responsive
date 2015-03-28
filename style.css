@@ -73,6 +73,7 @@ q:before, q:after {
 }
 #text_box {
     height: 245px;
+    text-align: center;
 }
 .clearfix:after {
    display: block;
@@ -98,12 +99,18 @@ q:before, q:after {
     color: #9282a0;
     font-size: 30px;
     float: left;
+    width: 80%;
     height: 245px;
-    width: 800px;
+}
+.long_block p {
+    margin-top: 115px; 
 }
 .short_block {
     background: #bc3183;
-    float: right;
+    float: left;
+    width: 20%;
     height: 245px;
-    width: 200px;
+}
+.short_block img {
+    margin-top: 115px;
 }
